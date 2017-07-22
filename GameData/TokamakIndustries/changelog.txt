@@ -1,12 +1,19 @@
-0.1++
-	Added life support for Orbital Orb, Munox Shuttle and Small Centrifuge.
-	Wrote descriptions and adjusted titles for Munox Shuttle and Munox Adapters.
-		Munox Shuttle will hold approximately 5x the amount of any LS 1.25m tank.
-	Added T.I. prefix to Dry Workshop and Munox parts to help with search function.
-	Moved Small Centrifuge to an appropriate place in Tech Tree.
-	Fixed USI patch:
-		Parts not showing in part selection.
-		Raised habitation values. -Thanks in part to forum user @Mihara.
+0.1.8
+	Moved heat shields to Thermal category
+    Increased crew capacity of small centrifuge to 2
+    Added IVA from old centrifuge to replace broken on from new one
+
+	Following changes by @JadeOfMaar:
+	-Added life support for Orbital Orb, Munox Shuttle and Small Centrifuge.
+	-Wrote descriptions and adjusted titles for Munox Shuttle and Munox Adapters.
+	-Munox Shuttle will hold approximately 5x the amount of any life support 1.25m tank.
+	-Added T.I. prefix to Dry Workshop and Munox parts to help with search function.
+	-Removed redundant Extraplanetary Launchpad modules from Inflato Workshop.
+	-Moved Small Centrifuge to an appropriate place in Tech Tree (alongside stock Science Lab).
+	-Fixed USI patch:
+	-Parts not showing in part selection.
+	-Raised habitation values. -Thanks in part to forum user @Mihara.
+
 0.1.7
 	Removed extra files in the InflatoFlat
 
