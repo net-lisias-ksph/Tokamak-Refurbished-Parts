@@ -1,3 +1,5 @@
+0.1.9
+	Adjusted centrifuge hab time for MKS
 0.1.8
 	Moved heat shields to Thermal category
     Increased crew capacity of small centrifuge to 2
