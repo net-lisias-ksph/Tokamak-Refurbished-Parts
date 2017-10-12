@@ -1,3 +1,7 @@
+0.1.10.1
+	Fixed bottom node location on the dry workshop
+0.1.10
+	Updated for KSP 1.3.1
 0.1.9
 	Adjusted centrifuge hab time for MKS
 0.1.8
