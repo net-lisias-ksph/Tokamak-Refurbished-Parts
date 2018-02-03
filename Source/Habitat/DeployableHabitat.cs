@@ -55,9 +55,6 @@ namespace Habitat
 			int crewCount = part.protoModuleCrew.Count;
 			bool canRetract = crewCount <= crewCapacityRetracted;
 			group.Events["RetractModule"].active = canRetract;
-			Debug.LogFormat ("[DeployableHabitat] CountCrew: {0} {1} {2} {3}",
-							 crewCount, crewCapacityRetracted, canRetract,
-							 group.Events["RetractModule"].active = canRetract);
 		}
 
 		IEnumerator WaitAndCountCrew ()
