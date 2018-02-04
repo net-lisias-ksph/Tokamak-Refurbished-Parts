@@ -27,7 +27,7 @@
 1:TokamakIndustries, TokamakIndustries.version,Tokamak-RefurbishedParts
 
 # 2:PROJNAME, PROJFILE, VERSIONFILE, PLUGINSFOLDER
-2:TokamakIndustries,Source/TokamakIndustries/TokamakIndustries.csproj,TokamakIndustries.version,GameData/TokamakIndustries/Plugins
+2:TokamakIndustries,Source/PJHabitat.csproj,TokamakIndustries.version,GameData/TokamakIndustries/Plugins
 
 # 3:SOURCEFILE, DESTDIR
 3:KerbalHotSeat.version,GameData/KerbalHotSeat
