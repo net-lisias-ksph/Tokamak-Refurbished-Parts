@@ -79,7 +79,6 @@ namespace Habitat
 				part.CrewCapacity = crewCapacityRetracted;
 			}
 			part.CheckTransferDialog();
-			MonoUtilities.RefreshContextWindows(part);
 		}
 
 		public void EnableModule ()
