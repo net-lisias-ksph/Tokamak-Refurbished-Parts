@@ -32,7 +32,9 @@
       <DependentUpon>AssemblyVersion.tt</DependentUpon>
     </Compile>
     <Compile Include="Habitat\Centrifuge.cs" />
+    <Compile Include="Habitat\ControlReference.cs" />
     <Compile Include="Habitat\DeployableHabitat.cs" />
+    <Compile Include="Habitat\MultiPortDisambiguator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -73,5 +75,12 @@ set textTemplatingPath="%25ProgramFiles(x86)%25\Microsoft Visual Studio\2017\Com
 
 
 %25textTemplatingPath%25 "$(ProjectDir)AssemblyVersion.tt"</PreBuildEvent>
+  </PropertyGroup>
+  <PropertyGroup>
+    <PostBuildEvent>
+start /D D:\Users\jbb\github\Tokamak-Refurbished-Parts /WAIT deploy.bat  $(TargetDir) $(TargetFileName)
+if $(ConfigurationName) == Release (
+	start /D D:\Users\jbb\github\Tokamak-Refurbished-Parts /WAIT buildRelease.bat $(TargetDir) $(TargetFileName)
+)</PostBuildEvent>
   </PropertyGroup>
 </Project>
