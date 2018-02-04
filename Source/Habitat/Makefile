@@ -11,6 +11,7 @@ MOD_FILES := \
 	Centrifuge.cs			\
 	ControlReference.cs		\
 	DeployableHabitat.cs	\
+	MultiPortDisambiguator.cs\
 	$e
 
 DOC_FILES := \
