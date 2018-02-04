@@ -1,26 +1,34 @@
 using System;
-using System.Collections.Generic;
+using System.Collections;
 using System.Linq;
 using UnityEngine;
 
 namespace Habitat
 {
-	public class DeployableHabitat : PartModule
+	public class DeployableHabitat : PartModule, IAnimatedModule
 	{
-		[KSPField]
-		public string animationName = "";
-
 		[KSPField]
 		public int crewCapacityDeployed = 0;
 
 		[KSPField]
 		public int crewCapacityRetracted = 0;
 
-		private Animation anim;
+		[KSPField]
+		public string deployedState = "deployed";
+
+		[KSPField]
+		public string retractedState = "retracted";
 
 		public override void OnStart(PartModule.StartState state)
 		{
 			base.OnStart(state);
+			GameEvents.onCrewTransferred.Add (onCrewTransferred);
+			StartCoroutine (WaitAndCountCrew ());
+		}
+
+		void OnDestroy ()
+		{
+			GameEvents.onCrewTransferred.Remove (onCrewTransferred);
 		}
 
 		public override string GetInfo()
@@ -38,39 +46,64 @@ namespace Habitat
 			return text;
 		}
 
-		public void Update()
+		void CountCrew ()
 		{
-			anim = part.FindModelAnimators(this.animationName)[0];
-			if (anim[animationName].normalizedTime < 1f)
-			{
-				part.CrewCapacity = this.crewCapacityRetracted;
+			if (!isEnabled) {
+				return;
 			}
-			if (this.anim[this.animationName].normalizedTime == 1f)
-			{
-				base.part.CrewCapacity = this.crewCapacityDeployed;
+			var group = part.FindModuleImplementing<ModuleAnimationGroup> ();
+			int crewCount = part.protoModuleCrew.Count;
+			bool canRetract = crewCount <= crewCapacityRetracted;
+			group.Events["RetractModule"].active = canRetract;
+		}
+
+		IEnumerator WaitAndCountCrew ()
+		{
+			yield return null;
+			CountCrew ();
+		}
+
+		void onCrewTransferred (GameEvents.HostedFromToAction<ProtoCrewMember,Part> hft)
+		{
+			if (hft.from != part && hft.to != part) {
+				return;
 			}
-			ModuleAnimateGeneric moduleAnimateGeneric = (ModuleAnimateGeneric)base.part.GetComponent("ModuleAnimateGeneric");
-			if (base.part.protoModuleCrew.Count > 0)
-			{
-				foreach (BaseEvent current in base.part.GetComponent<ModuleAnimateGeneric>().Events)
-				{
-					if (current.guiName == moduleAnimateGeneric.endEventGUIName)
-					{
-						current.guiActive = false;
-					}
-				}
+			CountCrew ();
+		}
+
+		void UpdateCrewCapacity ()
+		{
+			if (isEnabled) {
+				part.CrewCapacity = crewCapacityDeployed;
+			} else {
+				part.CrewCapacity = crewCapacityRetracted;
 			}
-			else
-			{
-				foreach (BaseEvent current in base.part.GetComponent<ModuleAnimateGeneric>().Events)
-				{
-					if (current.guiName == moduleAnimateGeneric.endEventGUIName)
-					{
-						current.guiActive = true;
-					}
-				}
-			}
-			base.OnUpdate();
+			part.CheckTransferDialog();
+			MonoUtilities.RefreshContextWindows(part);
+		}
+
+		public void EnableModule ()
+		{
+			isEnabled = true;
+			UpdateCrewCapacity ();
+		}
+
+		public void DisableModule ()
+		{
+			isEnabled = false;
+			UpdateCrewCapacity ();
+		}
+
+		public bool ModuleIsActive ()
+		{
+			return isEnabled;
+		}
+
+		public bool IsSituationValid()
+		{
+			// FIXME might want to support undeployable situations, though it
+			// seems the test is for only deploy, not retract.
+			return true;
 		}
 	}
 }

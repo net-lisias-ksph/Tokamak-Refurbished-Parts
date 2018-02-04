@@ -37,7 +37,7 @@ namespace Habitat
 		[KSPField(guiActive = true, guiActiveEditor = true, guiFormat = "F2", guiName = "Artificial Gravity", guiUnits = "g", isPersistant = false)]
 		public float currentGeeforce = 0f;
 
-		private float geeforce = 0f;
+		public float geeforce = 0f;
 
 		private bool startrot = false;
 
