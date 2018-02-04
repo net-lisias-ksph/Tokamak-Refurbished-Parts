@@ -26,7 +26,7 @@ namespace Habitat
 			controlTransform = part.transform;
 			if (!String.IsNullOrEmpty(controlTransformName)) {
 				Transform xform = part.FindModelTransform (controlTransformName);
-				if (controlTransform == null) {
+				if (xform == null) {
 					Debug.LogWarning ("[ControlReference] No control transform found with the name " + controlTransformName, part.gameObject);
 				} else {
 					controlTransform = xform;
