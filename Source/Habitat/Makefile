@@ -9,6 +9,7 @@ TARGETS		:= bin/${MODNAME}.dll
 
 MOD_FILES := \
 	Centrifuge.cs			\
+	ControlReference.cs		\
 	DeployableHabitat.cs	\
 	$e
 
