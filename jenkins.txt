@@ -30,7 +30,7 @@
 2:TokamakIndustries,Source/PJHabitat.csproj,TokamakIndustries.version,GameData/TokamakIndustries/Plugins
 
 # 3:SOURCEFILE, DESTDIR
-3:KerbalHotSeat.version,GameData/KerbalHotSeat
+3:KerbalHotSeat.version,GameData/TokamakIndustries
 #3:LICENSE.md,GameData/KerbalHotSeat
 #3:README.md,GameData/KerbalHotSeat
 
