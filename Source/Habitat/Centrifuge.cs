@@ -4,7 +4,7 @@ using UnityEngine;
 
 namespace Habitat
 {
-	public class Centrifuge : PartModule
+	public class Centrifuge : PartModule, IAnimatedModule
 	{
 		[KSPField]
 		public string rotorTransformName = "center";
@@ -41,8 +41,6 @@ namespace Habitat
 
 		private bool startrot = false;
 
-		private Animation anim;
-
 		public override void OnStart(PartModule.StartState state)
 		{
 			this.rotorTransform = base.part.FindModelTransform(this.rotorTransformName);
@@ -50,20 +48,34 @@ namespace Habitat
 			this.geeforce = this.habRadius * Mathf.Pow(3.14159274f * this.rotorRPM / 30f, 2f) / 9.81f;
 		}
 
+		public void EnableModule ()
+		{
+			isEnabled = true;
+		}
+
+		public void DisableModule ()
+		{
+			isEnabled = false;
+		}
+
+		public bool ModuleIsActive ()
+		{
+			return isEnabled;
+		}
+
+		public bool IsSituationValid()
+		{
+			// FIXME might want to support undeployable situations, though it
+			// seems the test is for only deploy, not retract.
+			return true;
+		}
+
 		private void Update()
 		{
-            this.anim = base.part.FindModelAnimators(this.animationName)[0];
 			this.rotorTransform.Rotate(new Vector3(0f, 6f, 0f) * this.rotorRPM * this.speedMult * Time.deltaTime);
 			this.flywheelTransform.Rotate(new Vector3(0f, -6f, 0f) * this.rotorRPM * this.speedMult * this.flywheelRotationMult * Time.deltaTime);
 			this.currentGeeforce = this.habRadius * Mathf.Pow(3.14159274f * this.rotorRPM * this.speedMult / 30f, 2f) / 9.81f;
-			if (this.anim[this.animationName].normalizedTime == 1f)
-			{
-				this.startrot = true;
-			}
-			else
-			{
-				this.startrot = false;
-			}
+			this.startrot = isEnabled;
 			if (this.startrot && this.speedMult < 1f)
 			{
 				this.speedMult += this.acceleration;
