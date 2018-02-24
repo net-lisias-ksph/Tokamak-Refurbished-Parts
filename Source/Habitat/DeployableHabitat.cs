@@ -71,14 +71,23 @@ namespace Habitat
 			CountCrew ();
 		}
 
-		void UpdateCrewCapacity ()
+		public override void OnLoad (ConfigNode node)
+		{
+			if (HighLogic.LoadedSceneIsFlight) {
+				UpdateCrewCapacity (false);
+			}
+		}
+
+		void UpdateCrewCapacity (bool xfer = true)
 		{
 			if (isEnabled) {
 				part.CrewCapacity = crewCapacityDeployed;
 			} else {
 				part.CrewCapacity = crewCapacityRetracted;
 			}
-			part.CheckTransferDialog();
+			if (xfer && HighLogic.LoadedSceneIsFlight) {
+				part.CheckTransferDialog();
+			}
 		}
 
 		public void EnableModule ()
