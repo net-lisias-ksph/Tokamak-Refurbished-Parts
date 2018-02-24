@@ -2,7 +2,7 @@ MODNAME		:= PJHabitat
 KSPDIR		:= ${HOME}/ksp/KSP_linux
 MANAGED		:= ${KSPDIR}/KSP_Data/Managed
 GAMEDATA	:= ${KSPDIR}/GameData
-MODGAMEDATA := ${GAMEDATA}/${MODNAME}
+MODGAMEDATA := ${GAMEDATA}/TokamakIndustries
 PLUGINDIR	:= ${MODGAMEDATA}/Plugins
 
 TARGETS		:= bin/${MODNAME}.dll
