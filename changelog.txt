@@ -1,3 +1,7 @@
+0.1.12
+	Updated for 1.4.1
+	Removed unnecessary directory layer
+
 0.1.11
 	Changed Base Mount landing leg's category to Ground
 	Added standardized build scripts
