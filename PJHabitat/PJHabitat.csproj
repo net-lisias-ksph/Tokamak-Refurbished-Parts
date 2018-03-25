@@ -34,6 +34,7 @@
     <Compile Include="Centrifuge.cs" />
     <Compile Include="ControlReference.cs" />
     <Compile Include="DeployableHabitat.cs" />
+    <Compile Include="KISWrapper.cs" />
     <Compile Include="MultiPortDisambiguator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -50,6 +51,9 @@
     <Reference Include="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
       <HintPath>R:\KSP_1.4.1_dev\KSP_x64_Data\Managed\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="KIS">
+      <HintPath>R:\KSP_1.4.1_dev\GameData\KIS\Plugins\KIS.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="UnityEngine, Version=0.0.0.0, Culture=neutral, processorArchitecture=MSIL">

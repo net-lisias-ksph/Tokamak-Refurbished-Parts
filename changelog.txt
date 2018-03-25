@@ -1,4 +1,5 @@
 0.1.14
+	Added TechRequired value to the Munox part
 	Thanks to forum user @taniwha for these updates
 		Add a makefile based build system
 		Fix a merge issue I forgot to test.
@@ -10,13 +11,6 @@
 			size of 8m. Medium is 2.5m/4m and small is 1.25m/2m.
 		Add configs for 3.75m and 1.875m KADEPT shields
 		Build tweaks
-
-
-
-
-
-
-
 
 0.1.13
 	Thanks to forum user @taniwha for these updates
