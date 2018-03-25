@@ -1,3 +1,23 @@
+0.1.14
+	Thanks to forum user @taniwha for these updates
+		Add a makefile based build system
+		Fix a merge issue I forgot to test.
+		Add the new KADEPT configs
+		Correct the descriptions of the KADEPT.
+
+			The large heat shield is better described as being 5m (it's 
+			bulkheadProfiles has been updated accordingly) with an extended 
+			size of 8m. Medium is 2.5m/4m and small is 1.25m/2m.
+		Add configs for 3.75m and 1.875m KADEPT shields
+		Build tweaks
+
+
+
+
+
+
+
+
 0.1.13
 	Thanks to forum user @taniwha for these updates
 		Make Centrifuge an animated module.  
