@@ -5,6 +5,8 @@ using UnityEngine;
 
 namespace Habitat
 {
+	using KIS;
+
 	public class DeployableHabitat : PartModule, IAnimatedModule
 	{
 		[KSPField]
@@ -71,14 +73,28 @@ namespace Habitat
 			CountCrew ();
 		}
 
-		void UpdateCrewCapacity ()
+		public override void OnLoad (ConfigNode node)
+		{
+			if (HighLogic.LoadedSceneIsFlight) {
+				UpdateCrewCapacity (false);
+			}
+			if (HighLogic.LoadedScene == GameScenes.LOADING) {
+				if (KISWrapper.Initialize ()) {
+					KISWrapper.AddPodInventories (part, crewCapacityDeployed);
+				}
+			}
+		}
+
+		void UpdateCrewCapacity (bool xfer = true)
 		{
 			if (isEnabled) {
 				part.CrewCapacity = crewCapacityDeployed;
 			} else {
 				part.CrewCapacity = crewCapacityRetracted;
 			}
-			part.CheckTransferDialog();
+			if (xfer && HighLogic.LoadedSceneIsFlight) {
+				part.CheckTransferDialog();
+			}
 		}
 
 		public void EnableModule ()
