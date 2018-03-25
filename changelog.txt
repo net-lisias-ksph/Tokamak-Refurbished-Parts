@@ -1,3 +1,11 @@
+0.1.13
+	Thanks to forum user @taniwha for these updates
+		Make Centrifuge an animated module.  
+		Install to the correct directory
+		Get crew portraits working on scene load.  
+		Force-add KIS pod inventories.  
+		Fix the centrifuge's crew capacity.  
+
 0.1.12
 	Updated for 1.4.1
 	Removed unnecessary directory layer
