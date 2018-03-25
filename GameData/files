@@ -46,7 +46,9 @@ TokamakIndustries/lifesupport/Tokamak_SNX.cfg
 TokamakIndustries/lifesupport/Tokamak_TAC.cfg
 TokamakIndustries/lifesupport/Tokamak_USI.cfg
 TokamakIndustries/parts/KADEPT/KADEPTlarge.cfg
+TokamakIndustries/parts/KADEPT/KADEPTlargish.cfg
 TokamakIndustries/parts/KADEPT/KADEPTmedium.cfg
+TokamakIndustries/parts/KADEPT/KADEPTmodest.cfg
 TokamakIndustries/parts/KADEPT/KADEPTsmall.cfg
 TokamakIndustries/parts/KADEPT/NASAaeroShield.mu
 TokamakIndustries/parts/KADEPT/NasaAeroShieldBase.mbm
