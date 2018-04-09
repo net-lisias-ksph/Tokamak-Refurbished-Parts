@@ -1,3 +1,7 @@
+0.1.15
+	Thanks to user @LeLeon for the localization and german translation
+	Thanks to form user @ taniwha for a couple of config file fixes
+
 0.1.14
 	Added TechRequired value to the Munox part
 	Thanks to forum user @taniwha for these updates
