@@ -1,3 +1,6 @@
+0.1.15.1
+	Thanks to @Fitiales for the spanish translation
+
 0.1.15
 	Thanks to user @LeLeon for the localization and german translation
 	Thanks to form user @ taniwha for a couple of config file fixes

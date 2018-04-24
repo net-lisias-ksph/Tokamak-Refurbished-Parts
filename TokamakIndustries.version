@@ -1,25 +1,22 @@
 {
-	"NAME"			:	"TokamakIndustries",
-	"URL"			:	"https://raw.githubusercontent.com/linuxgurugamer/Tokamak-Refurbished-Parts/master/GameData/TokamakIndustries/TokamakIndustries.version",
-	"DOWNLOAD"		:	"https://github.com/linuxgurugamer/Tokamak-Refurbished-Parts/releases",
-	"CHANGE_LOG_URL":	"https://raw.githubusercontent.com/linuxgurugamer/Tokamak-Refurbished-Parts/master/GameData/TokamakIndustries/changelog.txt",
-	"GITHUB" :
-	{
-		"USERNAME" : "linuxgurugamer",
-		"REPOSITORY" : "Tokamak-Refurbished-Parts"
-	},
-	"VERSION":
-	{
-		"MAJOR"	:	0,
-		"MINOR"	:	1,
-		"PATCH"	:	15,
-		"BUILD"	:	0
-	},
-	"KSP_VERSION":
-	{
-		"MAJOR":1,
-		"MINOR":4,
-		"PATCH":1
+  "NAME": "TokamakIndustries",
+  "URL": "https://raw.githubusercontent.com/linuxgurugamer/Tokamak-Refurbished-Parts/master/GameData/TokamakIndustries/TokamakIndustries.version",
+  "DOWNLOAD": "https://github.com/linuxgurugamer/Tokamak-Refurbished-Parts/releases",
+  "CHANGE_LOG_URL": "https://raw.githubusercontent.com/linuxgurugamer/Tokamak-Refurbished-Parts/master/GameData/TokamakIndustries/changelog.txt",
+  "GITHUB": {
+    "USERNAME": "linuxgurugamer",
+    "REPOSITORY": "Tokamak-Refurbished-Parts"
+  },
+  "VERSION": {
+    "MAJOR": 0,
+    "MINOR": 1,
+    "PATCH": 15,
+    "BUILD": 1
+  },
+  "KSP_VERSION": {
+    "MAJOR": 1,
+    "MINOR": 4,
+    "PATCH": 1
   },
   "KSP_VERSION_MIN": {
     "MAJOR": 1,
