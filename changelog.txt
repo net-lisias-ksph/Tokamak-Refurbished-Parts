@@ -1,3 +1,6 @@
+0.1.15.3
+	Fixed node offsets for the ADAPT Largish and ADAPT Medium heat shields
+
 0.1.15.2
 	Updated EPL patches to reflect the new names for the workshop and
 	convertor
