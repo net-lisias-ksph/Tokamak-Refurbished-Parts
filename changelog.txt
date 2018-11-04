@@ -1,3 +1,6 @@
+0.1.15.4
+	Version bump for 1.5 rebuild
+
 0.1.15.3
 	Fixed node offsets for the ADAPT Largish and ADAPT Medium heat shields
 

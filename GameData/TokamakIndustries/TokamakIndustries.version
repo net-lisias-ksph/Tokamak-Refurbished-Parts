@@ -1,6 +1,6 @@
 {
   "NAME": "TokamakIndustries",
-  "URL": "https://raw.githubusercontent.com/linuxgurugamer/Tokamak-Refurbished-Parts/master/GameData/TokamakIndustries/TokamakIndustries.version",
+  "URL": "http://ksp.spacetux.net/avc/TokamakIndustries",
   "DOWNLOAD": "https://github.com/linuxgurugamer/Tokamak-Refurbished-Parts/releases",
   "CHANGE_LOG_URL": "https://raw.githubusercontent.com/linuxgurugamer/Tokamak-Refurbished-Parts/master/GameData/TokamakIndustries/changelog.txt",
   "GITHUB": {
@@ -11,21 +11,21 @@
     "MAJOR": 0,
     "MINOR": 1,
     "PATCH": 15,
-    "BUILD": 3
+    "BUILD": 4
   },
   "KSP_VERSION": {
     "MAJOR": 1,
-    "MINOR": 4,
+    "MINOR": 5,
     "PATCH": 1
   },
   "KSP_VERSION_MIN": {
     "MAJOR": 1,
-    "MINOR": 4,
+    "MINOR": 5,
     "PATCH": 1
   },
   "KSP_VERSION_MAX": {
     "MAJOR": 1,
-    "MINOR": 4,
+    "MINOR": 5,
     "PATCH": 99
   }
 }
