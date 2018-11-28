@@ -1,3 +1,6 @@
+0.1.15.5
+	From forum user @Taniwha:
+		For Extraplanetary launchpads, This fixes the converters so they actually work and gives the workshops more reasonable productivity factors for generic workshops
 0.1.15.4
 	Version bump for 1.5 rebuild 
 
