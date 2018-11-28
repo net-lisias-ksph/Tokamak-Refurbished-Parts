@@ -45,6 +45,9 @@ TokamakIndustries/lifesupport/Tokamak_KISM.cfg
 TokamakIndustries/lifesupport/Tokamak_SNX.cfg
 TokamakIndustries/lifesupport/Tokamak_TAC.cfg
 TokamakIndustries/lifesupport/Tokamak_USI.cfg
+TokamakIndustries/localization/de-de.cfg
+TokamakIndustries/localization/en-us.cfg
+TokamakIndustries/localization/es-es.cfg
 TokamakIndustries/parts/KADEPT/KADEPTlarge.cfg
 TokamakIndustries/parts/KADEPT/KADEPTlargish.cfg
 TokamakIndustries/parts/KADEPT/KADEPTmedium.cfg
