@@ -1,3 +1,6 @@
+0.1.17
+	Added missing bulkheadProfiles to parts
+	
 0.1.16
 	Moved the MM patches into new folder, removing unnecessary levels of folders
 	A number of patches from users:
