@@ -35,7 +35,7 @@ namespace Habitat.KIS {
 					return false;
 				}
 
-				AddPodInventories = (AddPodInventoriesDelegate)Delegate.CreateDelegate(typeof(AddPodInventoriesDelegate), null, kis_AddPodInventories);
+				AddPodInventories = (AddPodInventoriesDelegate)Delegate.CreateDelegate(typeof(AddPodInventoriesDelegate), null, kis_AddPodInventories, false);
 				initialized = true;
 			}
 			return AddPodInventories != null;
