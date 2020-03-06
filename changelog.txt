@@ -1,5 +1,8 @@
 ChangeLog
 
+0.2.0.2
+	Updated mass, ablator & offsets in the KADEPT heat shields
+
 0.2.0.1
 	Fixed Delegate error with KIS
 
