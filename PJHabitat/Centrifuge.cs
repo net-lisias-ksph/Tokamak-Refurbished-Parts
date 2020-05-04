@@ -19,6 +19,10 @@ namespace Habitat
 		[KSPField]
 		public float rotorRPM = 0f;
 
+		[KSPField(isPersistant = true, guiActive = true, guiActiveEditor = true, guiName = "Speed Factor", guiUnits = "%")]
+		[UI_FloatRange(scene = UI_Scene.All, minValue = 0f, maxValue = 200f, stepIncrement = 5f, affectSymCounterparts = UI_Scene.All)]
+		public float rotorSpeedFactor = 100;
+
 		[KSPField]
 		public float flywheelRotationMult = 0f;
 
@@ -72,9 +76,10 @@ namespace Habitat
 
 		private void Update()
 		{
-			this.rotorTransform.Rotate(new Vector3(0f, 6f, 0f) * this.rotorRPM * this.speedMult * Time.deltaTime);
-			this.flywheelTransform.Rotate(new Vector3(0f, -6f, 0f) * this.rotorRPM * this.speedMult * this.flywheelRotationMult * Time.deltaTime);
-			this.currentGeeforce = this.habRadius * Mathf.Pow(3.14159274f * this.rotorRPM * this.speedMult / 30f, 2f) / 9.81f;
+			float rotorSpeed = rotorRPM * (rotorSpeedFactor / 100) * speedMult;
+			this.rotorTransform.Rotate(new Vector3(0f, 6f, 0f) * rotorSpeed * Time.deltaTime);
+			this.flywheelTransform.Rotate(new Vector3(0f, -6f, 0f) * rotorSpeed * this.flywheelRotationMult * Time.deltaTime);
+			this.currentGeeforce = this.habRadius * Mathf.Pow(3.14159274f * rotorSpeed / 30f, 2f) / 9.81f;
 			this.startrot = isEnabled;
 			if (this.startrot && this.speedMult < 1f)
 			{
