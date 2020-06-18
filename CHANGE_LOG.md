@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2016-0904: 0.1.2 (maekern) for KSP 1.1.3
+	+ Fixed dry worskhop not having tech tree entry
 * 2016-0831: 0.1.1 (maekern) for KSP 1.1.3
 	+ 0.1.1 - 2016.08.30
 		- Added updated (K)ADEPT heat shields originally by DennyTX
