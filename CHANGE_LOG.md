@@ -1,5 +1,15 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2018-1206: 0.1.16 (LinuxGuruGamer) for KSP 1.4.1
+	+ Moved the MM patches into new folder, removing unnecessary levels of folders
+	+ A number of patches from users:
+	+ From @Gordon-Dry
+		- Kerbalism support fix + textures to dds convert
+	+ From @tjdeckard
+		- Updates for USITools converter changes, Updated part configs to reflect changes made to converters in USITools
+	+ From @taniwha:
+		- Make inflatoflat work with CLS.
+		- Move the ladder collider back a little, Stops the kerbal doing the ladder slide.
 * 2018-1128: 0.1.15.5 (LinuxGuruGamer) for KSP 1.4.1
 	+ From forum user @Taniwha:
 		- For Extraplanetary launchpads, This fixes the converters so they actually work and gives the workshops more reasonable productivity factors for generic workshops
