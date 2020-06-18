@@ -1,5 +1,8 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2018-1128: 0.1.15.5 (LinuxGuruGamer) for KSP 1.4.1
+	+ From forum user @Taniwha:
+		- For Extraplanetary launchpads, This fixes the converters so they actually work and gives the workshops more reasonable productivity factors for generic workshops
 * 2018-1104: 0.1.15.4 (LinuxGuruGamer) for KSP 1.4.1
 	+ Version bump for 1.5 rebuild
 * 2018-0726: 0.1.15.3 (LinuxGuruGamer) for KSP 1.4.1
