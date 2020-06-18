@@ -1,5 +1,12 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2018-0325: 0.1.13 (LinuxGuruGamer) for KSP 1.4.1
+	+ Thanks to forum user @taniwha for these updates
+		- Make Centrifuge an animated module.
+		- Install to the correct directory
+		- Get crew portraits working on scene load.
+		- Force-add KIS pod inventories.
+		- Fix the centrifuge's crew capacity.
 * 2018-0318: 0.1.12 (LinuxGuruGamer) for KSP 1.2.
 	+ Updated for 1.4.1
 * 2018-0204: 0.1.11 (LinuxGuruGamer) for KSP 1.3.1
