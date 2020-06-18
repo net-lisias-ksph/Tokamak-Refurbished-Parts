@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2020-0306: 0.2.0.2 (LinuxGuruGamer) for KSP 1.8
+	+ Updated mass, ablator & offsets in the KADEPT heat shields
 * 2019-1201: 0.2.0.1 (LinuxGuruGamer) for KSP 1.8
 	+ Fixed Delegate error with KIS
 * 2019-1201: 0.2.0 (LinuxGuruGamer) for KSP 1.4.1
