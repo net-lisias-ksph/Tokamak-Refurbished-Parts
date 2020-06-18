@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2018-0726: 0.1.15.3 (LinuxGuruGamer) for KSP 1.4.1
+	+ Fixed node offsets for the ADAPT Largish and ADAPT Medium heat shields
 * 2018-0718: 0.1.15.2 (LinuxGuruGamer) for KSP 1.4.1
 	+ Updated EPL patches to reflect the new names for the workshop and convertor
 * 2018-0424: 0.1.15.1 (LinuxGuruGamer) for KSP 1.4.1
