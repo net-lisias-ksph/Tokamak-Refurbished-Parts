@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2018-0318: 0.1.12 (LinuxGuruGamer) for KSP 1.2.
+	+ Updated for 1.4.1
 * 2018-0204: 0.1.11 (LinuxGuruGamer) for KSP 1.3.1
 	+ Changed Base Mount landing leg's category to Ground
 	+ Added standardized build scripts
