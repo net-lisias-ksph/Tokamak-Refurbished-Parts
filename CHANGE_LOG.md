@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2017-0712: 0.1.5 (LinuxGuruGamer) for KSP 1.3
+	+ Added Life Support
 * 2017-0707: 0.1.4.0 (LinuxGuruGamer) for KSP 1.3
 	+ No changelog provided
 * 2016-0907: 0.1.3 (maekern) for KSP 1.1.3
