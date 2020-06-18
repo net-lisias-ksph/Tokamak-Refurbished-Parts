@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2017-0719: 0.1.7 (LinuxGuruGamer) for KSP 1.3
+	+ Removed extra files in the Inflatoflat directory
 * 2017-0716: 0.1.6 (LinuxGuruGamer) for KSP 1.3
 	+ Removed old LS files, moved into Extras directory
 	+ Added Small Centrifuge
