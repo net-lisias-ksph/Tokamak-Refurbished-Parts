@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2017-1011: 0.1.10 (LinuxGuruGamer) for KSP 1.3
+	+ No changelog provided
 * 2017-0723: 0.1.9 (LinuxGuruGamer) for KSP 1.3
 	+ Updated hab time for MKS
 * 2017-0722: 0.1.8 (LinuxGuruGamer) for KSP 1.3
