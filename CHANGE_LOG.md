@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2018-0424: 0.1.15.1 (LinuxGuruGamer) for KSP 1.4.1
+	+ Thanks to @Fitiales for the spanish translation
 * 2018-0409: 0.1.15 (LinuxGuruGamer) for KSP 1.4.1
 	+ Thanks to user @LeLeon for the localization and german translation
 	+ Thanks to form user @ taniwha for a couple of config file fixes
