@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2017-0707: 0.1.4.0 (LinuxGuruGamer) for KSP 1.3
+	+ No changelog provided
 * 2016-0907: 0.1.3 (maekern) for KSP 1.1.3
 	+ Previous release zip had wrong version of some files. Incrementing version number to make sure changes get pushed out to everyone
 * 2016-0904: 0.1.2 (maekern) for KSP 1.1.3
