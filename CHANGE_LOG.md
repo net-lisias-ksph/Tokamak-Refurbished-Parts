@@ -1,5 +1,8 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2018-0409: 0.1.15 (LinuxGuruGamer) for KSP 1.4.1
+	+ Thanks to user @LeLeon for the localization and german translation
+	+ Thanks to form user @ taniwha for a couple of config file fixes
 * 2018-0325: 0.1.14 (LinuxGuruGamer) for KSP 1.4.1
 	+ Updated for 1.4.1
 		- Added TechRequired value to the Munox part
