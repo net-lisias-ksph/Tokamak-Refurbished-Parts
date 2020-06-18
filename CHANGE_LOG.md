@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2019-0124: 0.1.17.1 (LinuxGuruGamer) for KSP 1.4.1
+	+ Added missing title to agent
 * 2019-0121: 0.1.17 (LinuxGuruGamer) for KSP 1.4.1
 	+ Added missing bulkheadProfiles to parts
 * 2019-0109: 0.1.16.1 (LinuxGuruGamer) for KSP 1.4.1
