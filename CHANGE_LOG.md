@@ -1,5 +1,8 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2019-1201: 0.2.0 (LinuxGuruGamer) for KSP 1.4.1
+	+ Added InstallChecker
+	+ Updated for KSP 1.8
 * 2019-0707: 0.1.18 (LinuxGuruGamer) for KSP 1.4.1
 	+ Version bump for 1.7.2
 	+ Updated AssemblyVersion.tt
