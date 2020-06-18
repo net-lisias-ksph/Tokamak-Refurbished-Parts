@@ -1,5 +1,7 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2019-1201: 0.2.0.1 (LinuxGuruGamer) for KSP 1.8
+	+ Fixed Delegate error with KIS
 * 2019-1201: 0.2.0 (LinuxGuruGamer) for KSP 1.4.1
 	+ Added InstallChecker
 	+ Updated for KSP 1.8
