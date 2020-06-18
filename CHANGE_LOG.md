@@ -1,5 +1,8 @@
 # Tokamak-Refurbished-Parts :: Change Log
 
+* 2019-0707: 0.1.18 (LinuxGuruGamer) for KSP 1.4.1
+	+ Version bump for 1.7.2
+	+ Updated AssemblyVersion.tt
 * 2019-0124: 0.1.17.1 (LinuxGuruGamer) for KSP 1.4.1
 	+ Added missing title to agent
 * 2019-0121: 0.1.17 (LinuxGuruGamer) for KSP 1.4.1
