@@ -141,3 +141,16 @@
 	+ Initial release
 		- Added "refurbished" inflato1, inflato2, and inflatoflat from Porkjet hab pack, with USI-LS/MKS, CLS and ELP support
 		- Added Dry Workshop with USI-LS/MKS, CLS and ELP support
+* 2015-0613: 0.41 (Porkjet) for KSP 1.0
+	+ compatibility update for 1.0.x
+* 2014-0423: 0.4 (Porkjet) for KSP 0.23.5 NO BINARIES
+	+ new part: Base Mount for F.L.A.T hab
+	+ redesigned PA550 model
+* 2014-0206: 0.3 (Porkjet) for KSP 0.23 NO BINARIES
+	+ new part: F.L.A.T Inflatable hab
+* 2014-0126: 0.2 (Porkjet) for KSP 0.2 NO BINARIES
+	+ new part: PA330 Inflatable hab
+	+ added props to Orbital Orb
+* 2014-0101: 0.1 (Porkjet) for KSP 0.1 NO BINARIES
+	+ Release
+	+ Parts: PA550, Small Centrifuge, Orbital Orb
